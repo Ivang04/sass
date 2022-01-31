@@ -1,0 +1,17 @@
+@import "menu";
+body {
+  background-color: darkcyan;
+}
+
+@mixin fonStyle {
+  color: white;
+  background-color: rgb(116, 116, 116);
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 40px;
+  @include fonStyle();
+}
+p {
+  @include fonStyle();
+}
