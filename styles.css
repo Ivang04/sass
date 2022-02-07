@@ -4,12 +4,12 @@ body {
 
 h1 {
   color: white;
-  background-color: #444343;
+  background-color: #161313;
   padding: 15px;
 }
 
 p {
-  color: grey;
+  color: rgb(167, 4, 4);
   background-color: #444343;
 }
 
@@ -33,7 +33,7 @@ ul li a {
 }
 
 body {
-  background-color: darkcyan;
+  background-color: rgb(30, 23, 70);
 }
 
 h1 {
@@ -49,3 +49,7 @@ p {
   text-transform: uppercase;
 }
 /*# sourceMappingURL=styles.css.map */
+.img {
+  box-shadow: 9px 5px 15px 5px #000000;
+  max-width: 100%;
+}
