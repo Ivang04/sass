@@ -1,6 +1,6 @@
 $colorbg: black;
 $colorh1: white;
-$colorp: grey;
+$colorp: rgb(161, 18, 18);
 
 body {
   background-color: $colorbg;
@@ -8,12 +8,12 @@ body {
 
 h1 {
   color: $colorh1;
-  background-color: rgb(68, 67, 67);
+  background-color: $colorp;
   padding: 15px;
 }
 p {
   color: $colorp;
-  background-color: rgb(68, 67, 67);
+  background-color: rgb(134, 2, 2);
 }
 
 ul {
